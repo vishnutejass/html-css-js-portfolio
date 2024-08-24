@@ -413,3 +413,7 @@ footer{
 footer p{
     text-align: center;
 }
+.set{
+    display: flex;
+    gap: 1rem;
+}
