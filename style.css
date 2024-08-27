@@ -172,6 +172,10 @@ section{
     height: 400px;
     width: 400px;
     margin: auto 0;
+    background-color: #c3dbf3;
+    
+    border-radius: 50%; /* Optional: Make the background circular */
+    
 }
 
 .section__text{
@@ -258,16 +262,19 @@ section{
 
 #about{
     position: relative;
+    padding-bottom: 2vh; /* Adjust the padding as needed */
 }
+
 .about-containers{
-    gap: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
+    gap: 1rem; /* Reduced gap */
+    margin-bottom: 1rem; /* Reduced margin */
+    margin-top: 1rem; /* Reduced margin */
 }
 
 .about-details-container{
     justify-content: center;
     flex-direction: column;
+    margin: 0; /* Remove any margin if necessary */
 }
 
 .about-containers,
@@ -286,7 +293,7 @@ section{
     bottom: 2.5rem;
 }
 .details-container{
-    padding: 1.5rem;
+    padding: 1rem; /* Adjust padding as needed */
     flex:1;
     background:white ;
     border-radius: 2rem;
